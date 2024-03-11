@@ -1,0 +1,73 @@
+.hide{
+    display: none;
+}
+.score{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    min-width: 150px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+}
+.game{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: lightgreen;
+
+    
+}
+.startScreen{
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding-top:25px;
+    text-align: center;
+    cursor: pointer;
+}
+.gameArea{
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+
+}
+.car,.enemy{
+    position:absolute;
+    bottom: 100px;
+    /* left:10px;  */
+    /* margin: 2%; */
+    width: 45px;
+    height: 70px;
+    border-radius: 5px;
+    background-image: url('car.png');
+    background-size: cover;
+    scale: 1.2;
+    
+
+    
+}
+.divider{
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    height: 120px;
+    margin-left:145px;
+}
