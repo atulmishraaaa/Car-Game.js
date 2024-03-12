@@ -49,20 +49,26 @@
     margin: auto;
 
 }
-.car,.enemy{
+.enemy{
     position:absolute;
     bottom: 100px;
-    /* left:10px;  */
-    /* margin: 2%; */
     width: 45px;
     height: 70px;
     border-radius: 5px;
     background-image: url('car.png');
     background-size: cover;
-    scale: 1.2;
-    
-
-    
+    scale: 1.2;    
+}
+.car{
+    background-image: url(myCar.png);
+    background-size: cover;
+    position:absolute;
+    bottom: 100px;
+    width: 45px;
+    height: 80px;
+    border-radius: 5px;
+    /* background-color: yellow; */
+    scale: 1.2;    
 }
 .divider{
     position: absolute;
